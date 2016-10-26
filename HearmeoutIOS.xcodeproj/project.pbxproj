@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082BF7065920765130AF03A2 /* Pods_HearmeoutIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB1BFE7F19D63883222ED38 /* Pods_HearmeoutIOSUITests.framework */; };
+		ADBBA995DA992D37DC3536EF /* Pods_HearmeoutIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8696E0D2338AFEEF48CC4A /* Pods_HearmeoutIOS.framework */; };
 		D0E577451DC044A900CAEEF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E577441DC044A900CAEEF6 /* AppDelegate.swift */; };
 		D0E577471DC044A900CAEEF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E577461DC044A900CAEEF6 /* ViewController.swift */; };
 		D0E5774A1DC044A900CAEEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E577481DC044A900CAEEF6 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D0E5774F1DC044A900CAEEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5774D1DC044A900CAEEF6 /* LaunchScreen.storyboard */; };
 		D0E5775A1DC044AA00CAEEF6 /* HearmeoutIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E577591DC044AA00CAEEF6 /* HearmeoutIOSTests.swift */; };
 		D0E577651DC044AA00CAEEF6 /* HearmeoutIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E577641DC044AA00CAEEF6 /* HearmeoutIOSUITests.swift */; };
+		F7A75E723251C814FED0790A /* Pods_HearmeoutIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E2F339F77C45626B2A8D6D /* Pods_HearmeoutIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DB51A78697824D8B6BCDF9 /* Pods-HearmeoutIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOS/Pods-HearmeoutIOS.release.xcconfig"; sourceTree = "<group>"; };
+		11AF0DC816C5D01BD61E01C9 /* Pods-HearmeoutIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOS/Pods-HearmeoutIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6AAAE319ED593046DE1D11 /* Pods-HearmeoutIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOSUITests/Pods-HearmeoutIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45E2F339F77C45626B2A8D6D /* Pods_HearmeoutIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeoutIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA10BF3A72C843AF0658A4D /* Pods-HearmeoutIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOSTests/Pods-HearmeoutIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB8696E0D2338AFEEF48CC4A /* Pods_HearmeoutIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeoutIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E577411DC044A900CAEEF6 /* HearmeoutIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearmeoutIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E577441DC044A900CAEEF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E577461DC044A900CAEEF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		D0E577601DC044AA00CAEEF6 /* HearmeoutIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearmeoutIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E577641DC044AA00CAEEF6 /* HearmeoutIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearmeoutIOSUITests.swift; sourceTree = "<group>"; };
 		D0E577661DC044AA00CAEEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB1BFE7F19D63883222ED38 /* Pods_HearmeoutIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HearmeoutIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E585FCBCC5BCD2A6F4113172 /* Pods-HearmeoutIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOSUITests/Pods-HearmeoutIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9ED4736EDF910A0B93FEA9E /* Pods-HearmeoutIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HearmeoutIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HearmeoutIOSTests/Pods-HearmeoutIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBBA995DA992D37DC3536EF /* Pods_HearmeoutIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A75E723251C814FED0790A /* Pods_HearmeoutIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082BF7065920765130AF03A2 /* Pods_HearmeoutIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D219255A122D6AFDD256DFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8696E0D2338AFEEF48CC4A /* Pods_HearmeoutIOS.framework */,
+				45E2F339F77C45626B2A8D6D /* Pods_HearmeoutIOSTests.framework */,
+				DBB1BFE7F19D63883222ED38 /* Pods_HearmeoutIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		620364FD7D65E0385E968036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11AF0DC816C5D01BD61E01C9 /* Pods-HearmeoutIOS.debug.xcconfig */,
+				02DB51A78697824D8B6BCDF9 /* Pods-HearmeoutIOS.release.xcconfig */,
+				F9ED4736EDF910A0B93FEA9E /* Pods-HearmeoutIOSTests.debug.xcconfig */,
+				5BA10BF3A72C843AF0658A4D /* Pods-HearmeoutIOSTests.release.xcconfig */,
+				E585FCBCC5BCD2A6F4113172 /* Pods-HearmeoutIOSUITests.debug.xcconfig */,
+				3B6AAAE319ED593046DE1D11 /* Pods-HearmeoutIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D0E577381DC044A900CAEEF6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D0E577581DC044AA00CAEEF6 /* HearmeoutIOSTests */,
 				D0E577631DC044AA00CAEEF6 /* HearmeoutIOSUITests */,
 				D0E577421DC044A900CAEEF6 /* Products */,
+				620364FD7D65E0385E968036 /* Pods */,
+				1D219255A122D6AFDD256DFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E577691DC044AA00CAEEF6 /* Build configuration list for PBXNativeTarget "HearmeoutIOS" */;
 			buildPhases = (
+				EC98C24D68266ED83A583C3B /* [CP] Check Pods Manifest.lock */,
 				D0E5773D1DC044A900CAEEF6 /* Sources */,
 				D0E5773E1DC044A900CAEEF6 /* Frameworks */,
 				D0E5773F1DC044A900CAEEF6 /* Resources */,
+				E074338DE8A112D13226BBD1 /* [CP] Embed Pods Frameworks */,
+				82098C154BFE8FF272387858 /* [CP] Copy Pods Resources */,
+				D0FEA92C1DC0523F00BE6E44 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E5776C1DC044AA00CAEEF6 /* Build configuration list for PBXNativeTarget "HearmeoutIOSTests" */;
 			buildPhases = (
+				BDFD7100ACB5B58C3A05CC7F /* [CP] Check Pods Manifest.lock */,
 				D0E577511DC044AA00CAEEF6 /* Sources */,
 				D0E577521DC044AA00CAEEF6 /* Frameworks */,
 				D0E577531DC044AA00CAEEF6 /* Resources */,
+				584F07AB523C2A310D2D35C5 /* [CP] Embed Pods Frameworks */,
+				308E6395C9BEDC43B84C440C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0E5776F1DC044AA00CAEEF6 /* Build configuration list for PBXNativeTarget "HearmeoutIOSUITests" */;
 			buildPhases = (
+				AF46A4A72DFCE3E41199ACCE /* [CP] Check Pods Manifest.lock */,
 				D0E5775C1DC044AA00CAEEF6 /* Sources */,
 				D0E5775D1DC044AA00CAEEF6 /* Frameworks */,
 				D0E5775E1DC044AA00CAEEF6 /* Resources */,
+				8F88EF3633E776477EAA016B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,142 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		308E6395C9BEDC43B84C440C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeoutIOSTests/Pods-HearmeoutIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		584F07AB523C2A310D2D35C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeoutIOSTests/Pods-HearmeoutIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82098C154BFE8FF272387858 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeoutIOS/Pods-HearmeoutIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F88EF3633E776477EAA016B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeoutIOSUITests/Pods-HearmeoutIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF46A4A72DFCE3E41199ACCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFD7100ACB5B58C3A05CC7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FEA92C1DC0523F00BE6E44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a1d7b966503445c261dfdba7dbbc2d94fbe96347 0f22cd58ff250f2cfd49a0c144f41292755f9a2745bf71858263873dc9bdb57b";
+		};
+		E074338DE8A112D13226BBD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HearmeoutIOS/Pods-HearmeoutIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC98C24D68266ED83A583C3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0E5773D1DC044A900CAEEF6 /* Sources */ = {
@@ -410,6 +595,7 @@
 		};
 		D0E5776A1DC044AA00CAEEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AF0DC816C5D01BD61E01C9 /* Pods-HearmeoutIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HearmeoutIOS/Info.plist;
@@ -422,6 +608,7 @@
 		};
 		D0E5776B1DC044AA00CAEEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DB51A78697824D8B6BCDF9 /* Pods-HearmeoutIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HearmeoutIOS/Info.plist;
@@ -434,6 +621,7 @@
 		};
 		D0E5776D1DC044AA00CAEEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9ED4736EDF910A0B93FEA9E /* Pods-HearmeoutIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +636,7 @@
 		};
 		D0E5776E1DC044AA00CAEEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA10BF3A72C843AF0658A4D /* Pods-HearmeoutIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +651,7 @@
 		};
 		D0E577701DC044AA00CAEEF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E585FCBCC5BCD2A6F4113172 /* Pods-HearmeoutIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HearmeoutIOSUITests/Info.plist;
@@ -475,6 +665,7 @@
 		};
 		D0E577711DC044AA00CAEEF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6AAAE319ED593046DE1D11 /* Pods-HearmeoutIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HearmeoutIOSUITests/Info.plist;
@@ -505,6 +696,7 @@
 				D0E5776B1DC044AA00CAEEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0E5776C1DC044AA00CAEEF6 /* Build configuration list for PBXNativeTarget "HearmeoutIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +705,7 @@
 				D0E5776E1DC044AA00CAEEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0E5776F1DC044AA00CAEEF6 /* Build configuration list for PBXNativeTarget "HearmeoutIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +714,7 @@
 				D0E577711DC044AA00CAEEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

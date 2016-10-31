@@ -15,6 +15,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let defaults = UserDefaults.standard
+        if (defaults.object(forKey: "name") == nil) {
+            // Passing in userdefaults like this is ugly
+            twitterLogin(defaults: defaults)
+        } else {
+            print("NOTHING TO SEE HERE")
+        }
+
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    // Passing in userdefaults like this is ugly
+    func twitterLogin(defaults: UserDefaults) {
         let logInButton = TWTRLogInButton { (session, error) in
             if let unwrappedSession = session {
                 let alert = UIAlertController(title: "Logged In",
@@ -24,6 +41,7 @@ class ViewController: UIViewController {
                 // When I figure out how to pass an object, I should do that
                 self.createApiUser(name: unwrappedSession.userName, twitterId: unwrappedSession.userID,
                                    authToken: unwrappedSession.authToken, authTokenSecret: unwrappedSession.authTokenSecret);
+                defaults.setValue(unwrappedSession.userName, forKey: "name")
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 self.present    (alert, animated: true, completion: nil)
             } else {
@@ -34,12 +52,6 @@ class ViewController: UIViewController {
         // TODO: Change where the log in button is positioned in your view
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func createApiUser(name: String, twitterId: String, authToken: String, authTokenSecret: String) {
